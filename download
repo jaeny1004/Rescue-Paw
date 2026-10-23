@@ -1,0 +1,20 @@
+# Local credentials and private artifacts
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+API.txt
+**/API/
+
+# Edge Impulse exported SDK/model (redistribution rights not confirmed)
+*_inferencing/
+*impulse*.zip
+*inferencing*.zip
+
+# Python and local outputs
+__pycache__/
+*.pyc
+.venv/
+venv/
+dataset_v2/
